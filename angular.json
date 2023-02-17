@@ -87,12 +87,19 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              
             ],
-            "scripts": []
+            "scripts": [
+              
+            ]
+           
           }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "9d23c947-bf0c-4c79-b0e0-58f1dcaa9845"
   }
 }

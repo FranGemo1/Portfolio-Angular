@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--SOBRE MI-->
+
+    <section class="sobremi" id="sobremi">
+        <div class="contenido-section">
+            <h2>Sobre Mi</h2>
+            <p><span>Soy Francisco Gemolotto</span> Estudiante de Desarrollo web y aplicaciones digitales. Me considero una persona responsable,  
+                flexible y comprometida; con pensamiento creativo, resolución de problemas, trabajo en equipo, comunicación y autonomía.</p>
+
+            <div class="fila">
+                <!--DATOS PERSONALES-->
+                <div class="columna">
+                        <h3>Datos Personales</h3>
+                        <ul>
+                            <li><strong>Cumpleaños:</strong>8/09/1996</li>
+                            <li><strong>Email:</strong>franciscogemoo@gmail.com</li>
+                            <li><strong>Localidad:</strong>Cordoba,Argentina</li>
+                            <li><strong>Direccion:</strong>Barrio General paz.</li>
+                            <li><strong>Perfil:</strong><span>Estudiante.</span></li>
+                        </ul>
+
+                </div>
+                <!--INTERESES-->
+                <div class="columna">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <fa-icon [icon]="faHeadphones"></fa-icon>
+                            <span>Musica</span>
+                        </div>
+                        <div class="interes">
+                            <fa-icon [icon]="faFutbol"></fa-icon>
+                            <span>Deporte</span>
+                        </div>
+                        <div class="interes">
+                            <fa-icon [icon]="faPlane"></fa-icon>
+                            <span>Viajar</span>
+                        </div>
+                        <div class="interes">
+                            <fa-icon [icon]="faHiking"></fa-icon>
+                            <span>trekking</span>
+                        </div>
+                        <div class="interes">
+                            <fa-icon [icon]="faBussinesTime"></fa-icon>
+                            <span>Negocios</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button>Descargar CV <fa-icon [icon]="faDownload"></fa-icon>
+                <span class="overlay"></span>
+
+            </button> 
+        </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,142 @@
+body{
+    border-top: solid 1px white;
+    margin: 5%;
+}
+.experiencias{
+    display: flex;
+    flex-direction: column;
+    padding: 0 25px;
+    margin: 20px;
+    
+    
+}
+
+.container{
+    display: flex;
+    overflow: hidden;
+    
+}
+
+.titulo-experiencia{
+    letter-spacing: 5px;
+  
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 40px;
+    margin: 35px 0;
+}
+
+.fecha-experiencia{
+    color:#858591  ;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+
+.empresa-experiencia{
+    color: #858591 ;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-top:5px;
+    
+}
+
+.puesto-experiencia{
+    
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.descripcion-experiencia{
+    font-size: 15px;
+    margin-top: 10px;
+    line-height: 1.3;
+}
+
+
+.item{
+    margin:  auto;
+    margin-bottom: 25px;
+    padding: 25px;
+}
+
+
+.lista-redes{
+    list-style: none;
+    justify-content: center;
+}
+
+.lista-redes img{
+    height: 45px;
+    cursor: pointer;
+    position: absolute;
+
+}
+
+.lista-redes a{
+    text-decoration: none;
+    cursor: pointer;
+    position: relative;
+    font-size: 15px;
+
+}
+
+.btn-dequesetrata a{
+    border: solid 1px ;
+    font-size: 15px;
+    padding: 4px;
+    background-color:#858591 ;
+    text-decoration: none;
+    cursor: pointer;
+    color:#1b1b32 ;
+    
+}
+
+.btn-dequesetrata{
+    margin-top:12px ;
+}
+
+.btn-dequesetrata a:hover{
+    background-color: #1b1b32;
+    color:#d0d0d5 ;
+    
+}
+/*
+
+
+.linea{
+    background-color: #858591 ;
+    position: relative;
+}
+
+
+.linea::before,
+.linea::after{
+content: "";
+display: block;
+width: 18px;
+height: 18px;
+background-color:#858591;
+border-radius: 50%;
+position: absolute;
+top: -18px;
+left: -8px;
+
+}
+
+.linea::after{
+    content: "";
+    display: block;
+    width: 18px;
+    height: 18px;
+    background-color:var#858591;
+    border-radius: 50%;
+    position: absolute;
+    top: 100%;
+    left: -8px;
+    
+    }
+*/

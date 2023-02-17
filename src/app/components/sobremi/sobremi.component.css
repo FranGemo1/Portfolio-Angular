@@ -1,0 +1,122 @@
+.sobremi{
+    background-color:#f5f6f7 ;
+    color:#1b1b32 ;
+    padding: 50px 20px;
+}
+
+.sobremi .contenido-section{
+max-width: 1100px;
+margin:auto;
+
+}
+
+.sobremi h2{
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.sobremi .contenido-section p{
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+
+.sobremi .contenido-section p span{
+   color:#1b1b32 ;
+   font-weight: bold;
+}
+
+.sobremi .fila{
+    display: flex;
+}
+
+.sobremi .fila .columna{
+    width: 50%;
+}
+
+.sobremi .fila .columna h3{
+    font-size: 28px;
+
+}
+
+.sobremi .fila .columna ul{
+    list-style: none;
+}
+
+.sobremi .fila .columna ul li{
+    margin: 12px 0px;
+    font-size: 18px;
+}
+
+.sobremi .fila .columna ul li strong{
+    display: inline-block;
+    color: #1b1b32 ;
+    width:130px ;
+}
+
+.sobremi .fila .columna ul li span{
+    background-color: #1b1b32;
+    color: #f5f6f7;
+    padding: 3px;
+    font-weight: bold;
+   
+    
+}
+
+.sobremi .fila .columna .contenedor-intereses{
+    display: flex;
+    margin: 12px 0px;
+    flex-wrap: wrap;
+    
+}
+
+.sobremi .fila .columna .contenedor-intereses .interes{
+    width: 100px;
+    height: 100px;
+    background-color:#1b1b32;
+    color: #f5f6f7;
+    margin: 0 15px 15px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: .3s;
+}
+
+.sobremi .fila .columna .contenedor-intereses .interes fa-icon {
+    font-size: 30px;
+  
+}
+
+.sobremi button{
+    cursor: pointer;
+    background-color:#858591;
+    border: 2px solid #f5f6f7;
+    width: fit-content;
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    color: #f5f6f7;
+    font-size: 16px;
+    position: relative;
+    z-index: 10;
+}
+
+
+.sobremi button .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color:#1b1b32;
+    z-index: -1;
+    transition: 1s;
+}
+
+.sobremi button:hover .overlay{
+width: 100%;
+
+}

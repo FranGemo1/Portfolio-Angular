@@ -1,0 +1,215 @@
+/*Seccion Tecnologia*/
+
+.habilidades{
+    background-color: #1b1b32;
+    color:#fff;
+    
+}
+
+.habilidades .contenido-seccion {
+    max-width: 1100px;
+    margin: auto;
+}
+
+.habilidades h2{
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.habilidades .fila{
+    display: flex;
+}
+
+.habilidades .fila .columna{
+    width: 50%;
+    padding: 0 2px;
+    
+}
+
+.habilidades .fila .columna h3{
+    font-size: 28px;
+    margin-bottom: 25px;
+    
+}
+
+.habilidades .habilidad span{
+    font-size: 15px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+    
+}
+
+.habilidades .habilidad .barra-habilidad{
+    height: 8px;
+    width: 80%;
+    background-color: #0a0a23;
+    position: relative;
+    margin-bottom: 30px;
+    
+}
+
+.habilidades .habilidad .progreso{
+    background-color:#fff ;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 8px;
+    width: 100%;   
+}
+
+.habilidades .habilidad .barra-habilidad span{
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  background-color: #fff;
+  color: #0a0a23;
+  border-radius: 40px;
+  line-height: 40px;
+  text-align: center;
+  top: -17px;
+  right: -15px;
+  font-size:14px ;
+}
+
+.habilidades .habilidad .javascript{
+    width: 0%;
+    animation: 2s javascript forwards;
+}
+
+@keyframes javascript {
+    0%{width: 0%;}
+    100%{width: 60%;}
+}
+
+.habilidades .habilidad .html{
+    width: 0%;
+    animation: 2s html forwards;
+}
+
+@keyframes html {
+    0%{width: 0%;}
+    100%{width: 80%;}
+}
+
+.habilidades .habilidad .css{
+    width: 0%;
+    animation: 2s css forwards;
+}
+
+@keyframes css {
+    0%{width: 0%;}
+    100%{width: 70%;}
+}
+
+.habilidades .habilidad .angular{
+    width: 0%;
+    animation: 2s angular forwards;
+}
+
+@keyframes angular {
+    0%{width: 0%;}
+    100%{width: 60%;}
+}
+
+.habilidades .habilidad .mysql{
+    width: 0%;
+    animation: 2s mysql forwards;
+}
+
+@keyframes mysql {
+    0%{width: 0%;}
+    100%{width: 40%;}
+}
+
+.habilidades .habilidad .python{
+    width: 0%;
+    animation: 2s python forwards;
+}
+
+@keyframes python {
+    0%{width: 0%;}
+    100%{width: 60%;}
+}
+
+.habilidades .habilidad .wordpress{
+    width: 0%;
+    animation: 2s wordpress forwards;
+}
+
+@keyframes wordpress {
+    0%{width: 0%;}
+    100%{width: 50%;}
+}
+
+.habilidades .habilidad .comunicacion{
+    width: 0%;
+    animation: 2s comunicacion forwards;
+}
+
+@keyframes comunicacion {
+    0%{width: 0%;}
+    100%{width: 80%;}
+}
+
+.habilidades .habilidad .trabajoenequipo{
+    width: 0%;
+    animation: 2s trabajoenequipo forwards;
+}
+
+@keyframes trabajoenequipo {
+    0%{width: 0%;}
+    100%{width: 80%;}
+}
+
+.habilidades .habilidad .creatividad{
+    width: 0%;
+    animation: 2s  creatividad forwards;
+}
+
+@keyframes creatividad {
+    0%{width: 0%;}
+    100%{width: 99%;}
+}
+
+.habilidades .habilidad .adaptacion{
+    width: 0%;
+    animation: 2s adaptacion forwards;
+}
+
+@keyframes adaptacion {
+    0%{width: 0%;}
+    100%{width: 80%;}
+}
+
+.habilidades .habilidad .flexibilidad{
+    width: 0%;
+    animation: 2s flexibilidad forwards;
+}
+
+@keyframes flexibilidad {
+    0%{width: 0%;}
+    100%{width: 80%;}
+}
+
+.habilidades .habilidad .liderazgo{
+    width: 0%;
+    animation: 2s liderazgo forwards;
+}
+
+@keyframes liderazgo {
+    0%{width: 0%;}
+    100%{width: 70%;}
+}
+
+.habilidades .habilidad .perseverancia{
+    width: 0%;
+    animation: 2s perserverancia forwards;
+}
+
+@keyframes perseverancia {
+    0%{width: 0%;}
+    100%{width: 80%;}
+}
